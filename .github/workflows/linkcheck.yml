@@ -12,5 +12,4 @@ jobs:
     - name: Scan for broken links
       uses: enkeyz/linkcheck-action@main
       with:
-        concurrentRequests: 100
         timeout: 10s
