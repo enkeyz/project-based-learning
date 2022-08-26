@@ -10,4 +10,4 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
     - name: Scan for broken links
-      uses: enkeyz/linkcheck-action@test_release
+      uses: enkeyz/linkcheck-action@main
